@@ -1,0 +1,46 @@
+main {
+    margin-block: 7.2rem 14.4rem;
+}
+
+section#projects {
+    padding-inline: 2%;
+    p {
+        justify-self: center;
+        margin-bottom: 0.8rem;
+
+        font: var(--text-lg);
+        color: var(--red)
+    }
+
+    h2 {
+        justify-self: center;
+        margin-bottom: 5.6rem;
+
+        font: var(--h2);
+        color: var(--gray-600);
+    }
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+        background-color: var(--gray-300);
+        padding: 1.2rem;
+        border-radius: 1.2rem;
+
+        img {
+            border-radius: 0.8rem;
+        }
+
+        h3 {
+            font: var(--text);
+            color: var(--gray-600);
+        }
+
+        p {
+            font: var(----text-tiny);
+            color: var(--gray-500);
+        }
+    }
+}

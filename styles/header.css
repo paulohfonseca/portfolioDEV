@@ -2,6 +2,9 @@ header {
     height: 100vh;
     padding-top: 10rem;
 
+    align-items: center;
+
+
     p {
         color: var(--gray-400);
         font: var(--text-tiny);

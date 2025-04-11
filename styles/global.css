@@ -34,10 +34,13 @@
     --text-tiny: 400 1.4rem/140% var(--font-family-MavenPro);
 }
 
+body {
+    background-color: var(--gray-200);
+}
+
 .container {
-    max-width: 128rem;
+    max-width: 104rem;
     margin-inline: auto;
-    align-items: center;
 }
 
 

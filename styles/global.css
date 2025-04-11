@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     /* Colors */
     --red: #E3646E;
@@ -26,4 +32,25 @@
     --font-family-MavenPro: "Maven Pro", sans-serif;
     --text-sm: 400 1.6rem/140% var(--font-family-MavenPro);
     --text-tiny: 400 1.4rem/140% var(--font-family-MavenPro);
+}
+
+.container {
+    max-width: 128rem;
+    margin-inline: auto;
+    align-items: center;
+}
+
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.bg-surface-color {
+    background-image: url(../assets/icons/Background_Intro.png);
+    background-size: cover;
 }

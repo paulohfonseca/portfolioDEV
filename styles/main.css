@@ -1,9 +1,4 @@
 main {
-    margin-block: 7.2rem 14.4rem;
-}
-
-section#projects {
-    padding-inline: 2%;
     p {
         justify-self: center;
         margin-bottom: 0.8rem;
@@ -19,6 +14,12 @@ section#projects {
         font: var(--h2);
         color: var(--gray-600);
     }
+}
+
+section#projects {
+    margin-block: 7.2rem 14.4rem;
+
+    padding-inline: 2%;
 
     .cards {
         grid-template-columns: repeat(3, 1fr);
@@ -36,11 +37,117 @@ section#projects {
         h3 {
             font: var(--text);
             color: var(--gray-600);
+
+            margin-block: 2.4rem 0.8rem;
         }
 
         p {
             font: var(----text-tiny);
             color: var(--gray-500);
+        }
+    }
+}
+
+section#services {
+    background-color: var(--gray-100);
+    
+    padding-block: 8.8rem 12rem;
+    
+
+    .cardsServices{
+        grid-template-columns: repeat(3, 1fr);
+        place-content: center;
+    }      
+    
+    .singleService {
+        border: 1px solid var(--gray-200);
+        border-radius: 1.2rem;
+        padding: 2rem;
+    
+        h3 {
+            font: var(--text);
+            color: var(--gray-600);
+
+            margin-block: 2rem 0.8rem;
+        }
+
+        p {
+            font: var(----text-tiny);
+            color: var(--gray-500);
+        }
+    }
+}
+
+section#contact {
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    padding-block: 12rem 10rem;
+
+    p {
+        color: var(--purple);
+        font: var(--text-lg);
+    }
+
+    h2 {
+        font: var(--h2);
+        color: var(--gray-600);
+
+        margin-block: 0.8rem;
+    }
+
+    h2 + p {
+        font: var(--text-sm);
+        color: var(--gray-500);
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 4.8rem;
+
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            border: none;
+            gap: 1.6rem;
+            
+            label {
+                visibility: hidden;
+                display: none;
+            }
+
+            .input-wrapper {
+                position: relative;
+            }
+            
+            input {
+                width: 40rem;
+                height: 6.8rem;
+    
+                padding-inline: 5rem;
+    
+                background-color: var(--gray-300);
+                font: var(--text-md);
+                color: var(--gray-500);
+    
+                border: none;
+                border-radius: 0.8rem;
+            }
+
+            i {
+                position: absolute;
+                left: 1rem;
+                top: 25%;
+                color: var(--gray-400);
+            }
+            
         }
     }
 }

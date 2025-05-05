@@ -31,6 +31,7 @@
 
     --font-family-MavenPro: "Maven Pro", sans-serif;
     --text-sm: 400 1.6rem/140% var(--font-family-MavenPro);
+    --text-md: 600 1.6rem/140% var(--font-family-MavenPro);
     --text-tiny: 400 1.4rem/140% var(--font-family-MavenPro);
 }
 
@@ -43,7 +44,6 @@ body {
     margin-inline: auto;
 }
 
-
 img {
     max-width: 100%;
     object-fit: cover;
@@ -53,7 +53,16 @@ ul {
     list-style: none;
 }
 
-.bg-surface-color {
+.bg-surface-intro {
     background-image: url(../assets/icons/Background_Intro.png);
     background-size: cover;
+}
+
+.bg-surface-contact {
+    background-image: url(..//assets/icons/Background_Contacts.png);
+    background-size: cover;
+}
+
+.bg-black {
+    background-color: var(--gray-100);
 }

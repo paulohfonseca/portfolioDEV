@@ -147,6 +147,16 @@ section#contact {
                 top: 25%;
                 color: var(--gray-400);
             }
+
+            img {
+                width: 2rem;
+                height: 2rem;
+
+                position: absolute;
+                right: 1.5rem;
+                top: 2.5rem;
+                color: var(--gray-400);
+            }
             
         }
     }

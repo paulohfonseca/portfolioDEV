@@ -20,7 +20,7 @@
     />
 </head>
 <body>
-    <div class="bg-surface-color">
+    <div class="bg-surface-intro">
         <header class="flex flex-direction-column container">
             <img src="assets/images/photo.png" alt="Foto de perfil">
             
@@ -50,8 +50,8 @@
         </header>
     </div>
 
-    <main class="container">
-        <section id="projects">
+    <main>
+        <section id="projects" class="container">
             <p>Meu trabalho</p>
             <h2>Veja os projetos em destaque</h2>
 
@@ -100,6 +100,68 @@
                 </div>
             </div>
         </section>
+
+        <div class="bg-black">
+            <section id="services" class="container">
+            <p>Meus serviços</p>
+            <h2>Como posso ajudar o seu negócio</h2>
+
+            <div class="cardsServices grid grid-auto-flow gap-24">
+                <div class="singleService">
+                    <img src="assets/icons/PC.svg" alt="Ícone de computador">
+
+                    <h3>Websites e Aplicativos</h3>
+                    <p>Desenvolvimento de interfaces</p>
+                </div>
+
+                <div class="singleService">
+                    <img src="assets/icons/dataBase.svg" alt="Ícone de banco de dados">
+
+                    <h3>API e banco de dados</h3>
+                    <p>Criação de serviços do sistema</p>
+                </div>
+
+                <div class="singleService">
+                    <img src="assets/icons/devOps.svg" alt="Ícone de Dev Ops">
+
+                    <h3>DevOps</h3>
+                    <p>Gestão e infraestrutura da aplicação</p>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <div class="bg-surface-contact">
+            <section id="contact" class="container ">
+                <p>Contato</p>
+                <h2>Gostou do meu trabalho?</h2>
+                <p>Entre em contato ou acompanhe as minhas redes sociais!</p>
+
+                <form action="">
+                    <fieldset>
+                        <div class="input-wrapper">
+                            <label for="personal-linkedin">Linkedin</label>
+                            <input type="text" id="personal-linkedin" placeholder="Linkedin">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="personal-insta">Instagram</label>
+                            <input type="text" id="personal-insta" placeholder="Instagram">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="personal-github">GitHub</label>
+                            <input type="text" id="personal-github" placeholder="GitHub">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="personal-email">E-mail</label>
+                            <input type="email" id="personal-email" placeholder="E-mail">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </div>
     </main>
 </body>
 </html>
